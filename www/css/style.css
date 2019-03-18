@@ -1,0 +1,57 @@
+/**/
+:root{
+    --color: #fa716c;
+    --font-color-white: #fff;
+}
+.recipe{
+padding: 0 !important;
+height: 100px;
+color: var(--color);
+}
+
+.recipe__title{
+font-size: 16px;
+color:rgb(71, 71, 71);
+font-weight: 600;
+color: var(--color);
+}
+
+.recipe__img{
+    width: 100px !important;
+    height: 100px !important;
+    float: left;
+}
+
+.recipe__category{
+display: block;
+margin-top: 3rem;
+margin-left: 7rem !important;
+font-size: 16px;
+font-style: italic;
+color: var(--color);
+font-weight: 600;
+}
+
+.view__img{
+    float: center;
+    height: 300px;
+    width: 100vw;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+
+ons-tab{
+    background: var(--color);
+}
+ons-toolbar{
+    background: var(--color) !important;
+}
+.toolbar__title{
+    color: var(--font-color-white) !important;
+
+}
+ons-back-button{
+    color: var(--font-color-white) !important;
+}
